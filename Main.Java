@@ -23,7 +23,15 @@ public static void main(String[] args){
 
         switch (option){
 
+            case 1 -> geo_plana.circulo(sc)
+
+            case 2 -> geo_plana.quadrado(sc)
+
+            case 3 -> 
+
+            case 4 -> 
             
+            case 5 -> 
 
         }
 
