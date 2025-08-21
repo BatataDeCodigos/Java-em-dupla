@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 //criando a classe do Main
-public class Main{
+public class main{
 
 public static void main(String[] args){
 
@@ -23,25 +23,32 @@ public static void main(String[] args){
 
         switch (option){
 
-            case 1 -> geo_plana.circulo(sc)
+            case 1 -> geo_plana.circulo(sc);
 
-            case 2 -> geo_plana.quadrado(sc)
+            case 2 -> geo_plana.quadrado(sc);
 
-            case 3 -> 
+            case 3 -> geo_espacial.cubo(sc);
 
-            case 4 -> 
+            case 4 -> geo_espacial.esfera(sc);
             
-            case 5 -> 
+            case 5 -> {
+
+                System.out.println("Finalizando...");
+                menu = false;
+
+            }
+
+            default -> System.out.println("Opção não identificada... Tente novamente...");
 
         }
 
-//
-
         }
+
+sc.close();
 
     }
 
 }
 
-}
+
 
