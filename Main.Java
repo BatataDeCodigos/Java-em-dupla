@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 //criando a classe do Main
-public class main{
+public class Main{
 
 public static void main(String[] args){
 
@@ -37,6 +37,8 @@ public static void main(String[] args){
                 menu = false;
 
             }
+
+            //ta dando erro pois precisamos da parte do Vinny 
 
             default -> System.out.println("Opção não identificada... Tente novamente...");
 
