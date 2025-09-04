@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 //criando a classe do Main
-public class main{
+public class Main{
 
 @SuppressWarnings("ConvertToTryWithResources")
 public static void main(String[] args){
